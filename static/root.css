@@ -1,0 +1,35 @@
+*:root{
+  --text-color: #fdfdfd;
+  --background: #222222;
+}
+
+*{
+  color: var(--text-color);
+  font-family: Helvetica, sans-serif;
+}
+
+body{
+  top: 0;
+  left: 0;
+  margin: 0;
+  background-color: var(--background);
+}
+
+.container, 
+.header{
+  width: 100%;
+  /* position: absolute; */
+}
+
+.banner{
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 0.25rem;
+}
+
+.banner.warn{
+  background-color: #c7b300;
+  color: #443d00;
+}

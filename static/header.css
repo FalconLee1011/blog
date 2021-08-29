@@ -1,0 +1,53 @@
+.container{
+  height: 80vh;
+}
+
+.header{
+  background: url("./assets/code.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header .title{
+  text-align: center;
+  padding: 1em 0em;
+  font-size: 200%;
+}
+
+.header .menu{
+  width: 100%;
+  background-color: #33333370;
+  backdrop-filter: blur(5px);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header .menu .menu-item{
+  text-align: center;
+  padding: 1em 1.5em;
+  display:inline-block;
+}
+
+.header .menu .menu-item.active{
+  background-color: #52525270;
+  border-bottom: #d7d7d790 .5px solid;
+}
+
+.header .menu .menu-item:hover:not(.disabled){
+  background-color: #83838370;
+  cursor: pointer;
+}
+
+.container h1{
+  text-align: center;
+}
+
+.menu-item.disabled{
+  opacity: 0.5;
+}
+
+.menu-item.disabled:hover{
+  cursor: not-allowed !important;
+  background-color: initial;
+}
