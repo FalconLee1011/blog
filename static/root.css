@@ -15,10 +15,19 @@ body{
   background-color: var(--background);
 }
 
+a, 
+a:visited{
+  text-decoration: none;
+}
+
 .container, 
 .header{
   width: 100%;
   /* position: absolute; */
+}
+
+.container{
+  margin-bottom: 2rem;
 }
 
 .banner{

@@ -57,3 +57,11 @@
   list-style-type: "> ";
   margin-left: 1.5em;
 }
+
+.paragraph li.toplevel{
+  padding: .2em 0;
+}
+
+.paragraph li.toplevel li{
+  list-style-type:circle;
+}
