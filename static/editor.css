@@ -1,0 +1,34 @@
+.editor-container{
+  width: 100%;
+}
+
+.editor-block {
+  width: 50%;
+  background: #222;
+  height: calc(100% - 155px);
+  margin: 0;
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 1em;
+  border: #353535f0 1px solid;
+  border-collapse: collapse;
+  box-shadow: #111 0.75em 0.75em 1.6em;
+}
+
+.editor-block#preview {
+  right: 0;
+  padding: 0em 1em;
+  font-size: 100%;
+  overflow: scroll;
+}
+
+.editor-block textarea{
+  background: none;
+  border: none;
+  font-size: 100%;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  resize: none;
+}

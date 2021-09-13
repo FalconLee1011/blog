@@ -1,12 +1,15 @@
 
-.post{
+.post {
   width: 50%;
-  background: #333;
+  /* background: #333; */
   margin: 0 auto;
   margin-top: 2em;
   margin-bottom: 2em;
   box-sizing: border-box;
   padding: 1em;
+  border: #353535f0 1px solid;
+  border-radius: .2rem;
+  box-shadow: #111 0.75em 0.75em 1.6em;
 }
 
 .post > .post-header{
@@ -36,10 +39,5 @@
   }
   .post{
     width: 95% !important;
-    background: #333;
-    margin: 0 auto;
-    margin-top: 2em;
-    box-sizing: border-box;
-    padding: 1em;
   } 
 }
