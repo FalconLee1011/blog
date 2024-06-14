@@ -1,0 +1,141 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title></title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/ir-black.min.css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script><script>hljs.highlightAll();</script><style>:root {
+      --primary: rgb(45, 126, 158);
+      --primary-darken: rgb(11, 28, 34);
+      --primary-lighten: rgb(176, 232, 252);
+    }
+
+    body {
+      top: 0;
+      left: 0;
+      color: var(--primary-lighten);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: lighter;
+      margin: 0 auto;
+      animation: background-change;
+      animation-duration: 1.6s;
+      animation-fill-mode: both;
+    }
+
+    ul,
+    li {
+      list-style: none;
+      width: 42.5rem;
+      padding: 0;
+      list-style-position: inside;
+    }
+
+    .menu {
+      width: 42.5rem;
+      padding: 0.75em 2em !important;
+      background:
+        linear-gradient(to right, transparent 0%, transparent 2%, #000 2%, #000 98%, transparent 98%) 0 0,
+        linear-gradient(to bottom, var(--primary-lighten) 0.25rem, transparent 0.25rem) 0 0,
+        linear-gradient(to top, var(--primary-lighten) 0.25rem, transparent 0.25rem) 0 0;
+    }
+
+    .menu-item {
+      padding: 1em 2em;
+      transition: 0.6s;
+      cursor: pointer;
+      box-sizing: border-box;
+    }
+
+    .menu-item:hover {
+      animation-name: item-hover-animation;
+      animation-duration: 1.6s;
+      animation-iteration-count: infinite;
+      animation-delay: 0.3s;
+    }
+
+    .item-title {
+      font-size: 225%;
+    }
+
+    .item-title::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 0.075rem;
+      background-color: var(--primary);
+      transform-origin: center;
+      transition: 0.2s;
+      transform: scaleX(0);
+    }
+
+    .menu-item:hover .item-title::after {
+      animation-name: item-title-bottom-line-animation;
+      animation-duration: 0.4s;
+    }
+
+    .item-subtitle {
+      font-size: 125%;
+      transform-origin: center;
+      transition: 0.3s;
+      transform: scaleY(0);
+    }
+
+    .menu-item:hover .item-subtitle {
+      transform: scaleY(1);
+    }
+
+    @keyframes background-change {
+      0% {
+        background: #222;
+      }
+
+      100% {
+        background: #000;
+      }
+    }
+
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes item-title-bottom-line-animation {
+      0% {
+        transform: scaleX(0);
+      }
+
+      80% {
+        transform: scaleX(1);
+      }
+
+      95% {
+        transform: scaleX(1);
+        opacity: 1;
+      }
+
+      100% {
+        transform: scaleX(1);
+        opacity: 0;
+      }
+    }
+
+    @keyframes item-hover-animation {
+      0% {
+        background-color: var(--primary);
+      }
+
+      90% {
+        background-color: var(--primary-darken);
+      }
+
+      100% {
+        background-color: var(--primary);
+      }
+    }
+    @media only screen and (max-width: 800px) {
+      .menu {
+        transform: scale(0.5);
+      }
+      .menu-item .item-subtitle {
+        transform: scaleY(1);
+      }
+    }</style><script defer="defer" src="../js/main.bundle.js"></script><link href="../css/main.css" rel="stylesheet"></head><body><div class="nav" id="nav"><div class="nav-title">xtl.tw | 草之家 V3<div class="nav-menu-button" id="nav-menu-button"></div></div><div class="nav-items" id="nav-items"><a href="/" class="nav-item">Home</a><a href="/about" class="nav-item">About</a><a href="/projects" class="nav-item">Projects</a><a href="/posts" class="nav-item">Blog</a></div></div><div class="container" style="animation: fade-in; opacity: 0; animation-duration: 1.6s; animation-fill-mode: both;"><ul class="menu"><a href="/"><li class="menu-item"><div class="item-title">Home</div><div class="item-subtitle">Watch xtl.tw home animation.</div></li></a><a href="/about"><li class="menu-item"><div class="item-title">About</div><div class="item-subtitle">Learn more about me.</div></li></a><a href="/projects"><li class="menu-item"><div class="item-title">Projects</div><div class="item-subtitle">Hand picked projects made by me.</div></li></a><a href="/blog"><li class="menu-item"><div class="item-title">Blog</div><div class="item-subtitle">My blog, which not really updating.</div></li></a><a href="/MD-editor"><li class="menu-item"><div class="item-title">MD Editor</div><div class="item-subtitle">A simple Markdown editor.</div></li></a><a href="#"><li class="menu-item"><div class="item-title">SiteMap</div><div class="item-subtitle">Well, this page.</div></li></a></ul></div><div class="crt"><div class="lines"></div><div class="lines scanning"></div></div></body></html>
