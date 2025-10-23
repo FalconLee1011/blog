@@ -1,0 +1,1 @@
+import{_ as n}from"./DlAUqK2U.js";import{c as o,B as t,o as r}from"#entry";const s={},c={class:"container"};function a(e,_){return r(),o("div",c,[t(e.$slots,"default")])}const l=Object.assign(n(s,[["render",a]]),{__name:"Container"});export{l as C};

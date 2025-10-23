@@ -1,0 +1,1 @@
+import{E as e}from"./r3FEm8wg.js";import{g as t,m as n,o as r}from"#entry";import"./Xon7ivAG.js";import"./DlAUqK2U.js";const u=t({__name:"404",setup(a){const o={statusCode:404,fatal:!1,unhandled:!1,toJSON:function(){throw new e("Function not implemented.")},name:"Not Found",message:"The thing is not here."};return(s,m)=>(r(),n(e,{error:o}))}});export{u as default};
