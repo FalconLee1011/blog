@@ -1,0 +1,1 @@
+import{_ as n,c as o,o as s,G as t}from"#entry";const c={},r={class:"container"};function a(e,_){return s(),o("div",r,[t(e.$slots,"default")])}const l=Object.assign(n(c,[["render",a]]),{__name:"Container"});export{l as C};
