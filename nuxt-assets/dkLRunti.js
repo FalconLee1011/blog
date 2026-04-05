@@ -1,0 +1,1 @@
+import{d as e,c as o,e as s,g as a,u as t,D as c,m as n}from"#entry";const d={class:"loading"},l=e({__name:"loading",setup(r){return(_,i)=>(s(),o("div",d,[a(t(c),{ref:"dotRef",class:"icon",autoplay:"",loop:"",mode:"bounce",speed:.8635,src:"/assets/favicon.lottie"},null,512)]))}}),f=n(l,[["__scopeId","data-v-315f18f5"]]);export{f as default};

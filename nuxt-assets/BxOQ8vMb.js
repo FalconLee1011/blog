@@ -1,0 +1,1 @@
+import{d as a,c as s,e as r,g as e,_ as c,E as n,F as _}from"#entry";const p=a({__name:"404",setup(m){const t={statusCode:404,fatal:!1,unhandled:!1,toJSON:function(){throw new n("Function not implemented.")},name:"Not Found",message:"The thing is not here."};return(l,u)=>{const o=c;return r(),s(_,null,[e(o),e(n,{error:t})],64)}}});export{p as default};
