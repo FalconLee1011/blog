@@ -1,0 +1,1 @@
+import"#entry";const e=""+new URL("nynh.fBAPHftD.jpg",import.meta.url).href,n={"2f753d5f-1148-4471-9d6a-ea486b96650e":{file:"./new-year-new-hope.md",title:"New Year New Hope",thumbnail:e,createdAt:"2026-05-28T06:26:04.271Z",lastModifyAt:"2026-05-28T06:26:04.271Z"}};export{n as default};

@@ -1,0 +1,1 @@
+const e={"2f753d5f-1148-4471-9d6a-ea486b96650e":{file:"./new-year-new-hope.md",title:"New Year New Hope",thumbnail:"/assets/entries/nynh.jpg",createdAt:"2026-05-28T06:26:04.271Z",lastModifyAt:"2026-05-28T06:26:04.271Z"}};export{e as default};

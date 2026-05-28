@@ -1,0 +1,1 @@
+import{u as e}from"./BAXxIxHg.js";import{d as t,o,p as s,c as a,e as n,m as c}from"#entry";const r={class:"index-container"},_=t({__name:"index",setup(d){return e({title:"xtl.tw - Home"}),o(()=>{s().push("/about")}),(p,i)=>(n(),a("div",r))}}),l=c(_,[["__scopeId","data-v-a839a91d"]]);export{l as default};
